@@ -127,7 +127,53 @@
 
             //}
 
+            //Console.WriteLine("Please Enter Your Budgte: ");
+            //int.TryParse(Console.ReadLine(), out int budget);
+
+            //switch (budget)
+            //{
+            //    case 3000:
+            //        {
+            //            Console.WriteLine("Option 03");
+            //            //Console.WriteLine("Option 02");
+            //            //Console.WriteLine("Option 01");
+            //            goto case 2000;
+            //            //break;
+            //        }
+            //    case 2000:
+            //        {
+            //            Console.WriteLine("Option 02");
+            //            //Console.WriteLine("Option 01");
+            //            goto case 1000;
+            //            //break;
+            //        }
+            //    case 1000:
+            //        {
+            //            Console.WriteLine("Option 01");
+            //            break;
+            //        }
+            //}
+
+            ////Multi Condtion in same case
+
+            //Console.WriteLine("Please Enter Your Age : ");
+            //int.TryParse(Console.ReadLine(), out int Age);
+
+            //switch (Age)
+            //{
+            //    case int when Age > 22 && Age < 25 :
+            //        Console.WriteLine("Your Age is Greater Than 22");
+            //        break;
+            //    case < 22:
+            //        Console.WriteLine("Your Age is Less Than 22");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Your Age is 22");
+            //        break;
+            //}
+
             #endregion
+
 
             #endregion
 
