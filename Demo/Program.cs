@@ -77,6 +77,37 @@
             //} 
             #endregion
 
+            #region Example 03 [String : Equality]
+            //Console.WriteLine("Enter Your Name: ");
+            //string Name  = Console.ReadLine() ?? "No Name";
+
+            //if (Name == "Ahmed")
+            //    Console.WriteLine("Hello Ahmed");
+            //else if (Name == "Maged")
+            //    Console.WriteLine("Hello Maged");
+            //else if (Name == "Yassmin")
+            //    Console.WriteLine("Hello Yassmin");
+            //else if (Name == "Aya")
+            //    Console.WriteLine("Hello Aya");
+
+
+            //switch(Name)
+            //{
+            //    case "Ahmed":
+            //        Console.WriteLine("Hello Ahmed");
+            //        break;
+            //    case "Maged":
+            //        Console.WriteLine("Hello Maged");
+            //        break;
+            //    case "Yassmin":
+            //        Console.WriteLine("Hello Yassmin");
+            //        break;
+            //    case "Aya":
+            //        Console.WriteLine("Hello Aya");
+            //        break;
+            //} 
+            #endregion
+
 
             #endregion
 
