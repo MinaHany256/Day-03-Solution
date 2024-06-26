@@ -174,6 +174,56 @@
 
             #endregion
 
+            #region Evolution of Switch in C# 8.0
+
+            #region Example01
+            String option = Console.ReadLine() ?? "0";
+
+            string message = string.Empty;
+
+            switch (option)
+            {
+                case "1":
+                    message = "using option 1";
+                    break;
+                case "2":
+                    message = "using option 2";
+                    break;
+                case "3":
+                    message = "using option 2";
+                    break;
+                default:
+                    message = "unsupported option";
+                    break;
+
+            }
+
+            Console.WriteLine(message);
+
+
+            message = option switch
+            {
+                "1" => "using option 1",
+                "2" => "using option 2",
+                "3" => "using option 3",
+                _ => "unsupported option"
+            };
+            #endregion
+
+            #region Example02
+            //Person person = new Person() { Id: 10, Name: "Mina Hany",Age: 21};
+
+            //switch(person)
+            //{
+            //    case {Id :10 , Name:"Mina Hany"}:
+            //          Console.WriteLine("Hello MIna");
+            //            break;
+            //    default:
+            //    break;
+            //} 
+            #endregion
+
+            #endregion
 
             #endregion
 
