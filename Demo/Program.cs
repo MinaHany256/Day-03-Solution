@@ -108,6 +108,26 @@
             //} 
             #endregion
 
+            #region Evoultion of switch in C# 7.0
+
+            //object input = new object();
+            //input = 5;
+
+            //switch(input)
+            //{
+            //    case int localinput when localinput > 1 :
+            //        Console.WriteLine("integer input");
+            //        break;
+            //     case double:
+            //        Console.WriteLine("double input");
+            //        break;
+            //    default:
+            //        Console.WriteLine("unkown input");
+            //        break;  
+
+            //}
+
+            #endregion
 
             #endregion
 
