@@ -448,6 +448,31 @@ namespace Assignment
 
             #endregion
 
+            #region 24- Write a program in C# Sharp to find the second largest element in an array.
+
+            //int[] arr = { 3, 7, 1, 9, 5, 2, 8, 4, 6 };
+
+            //int firstMax = 0; 
+            //int secondMax = 0; 
+
+            
+            //foreach (int number in arr)
+            //{
+            //    if (number > firstMax)
+            //    {
+            //        secondMax = firstMax; 
+            //        firstMax = number;
+            //    }
+            //    else if (number > secondMax)
+            //    {
+            //        secondMax = number;
+            //    }
+            //}
+
+            //Console.WriteLine($"Second largest element: {secondMax}");
+
+            #endregion
+
 
         }
     }
