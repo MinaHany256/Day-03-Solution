@@ -403,7 +403,6 @@ namespace Assignment
             //Console.WriteLine($"Sum Of The Array : {sum}");
 
             #endregion
-
         }
     }
 }
