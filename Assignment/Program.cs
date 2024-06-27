@@ -115,6 +115,16 @@
             //    Console.Write($" {number * i} ");
             #endregion
 
+            #region 8- Write a program that allows to user to insert number then print all even numbers between 1 to this number
+
+            //Console.Write("Please Enter any Number : ");
+            //int number = int.Parse(Console.ReadLine());
+
+            //for (int i = 2; i < number ; i+=2)
+            //    Console.Write($" {i} ");
+
+            #endregion
+
 
         }
     }
