@@ -472,6 +472,58 @@ namespace Demo
             //Marks[2] = new int[1] { 5 };
 
             #endregion
+
+            #region Array Methods
+
+            #region Class Member Methods
+            //1. class Memeber Methods
+            //int[] numbers = { 8,9,1,2,5,4,15,12,10,78};
+
+            //Array.Sort(numbers);
+            //Array.Clear(numbers);
+            //foreach (int number in  numbers)
+            //    Console.WriteLine(number);
+
+            //int[] arr01 = { 1, 2, 3,2,4,2 };
+            //int[] arr02 = new int[2];
+
+            //Array.Copy(arr01, arr02, 2);
+            //Array.ConstrainedCopy(arr01, 1, arr02, 0, 2);
+
+            //arr02 = (int[]) Array.CreateInstance(typeof(int), 10);
+            //int[,] arr03 = (int[,]) Array.CreateInstance(typeof(int), 2,4);
+
+            //int index01 = Array.IndexOf(arr01, 2);
+            //int index02 = Array.LastIndexOf(arr01, 2);
+            //Console.WriteLine(index01);
+            //Console.WriteLine(index02);
+
+            //foreach (int number in arr02)
+            //    Console.WriteLine(number); 
+            #endregion
+
+
+            #region Object Memeber Methods[Non-Static]
+            ////2.Object Member Methods
+           
+            //int[] arr01 = { 1, 2, 3,2,4,2 };
+            //int[] arr02 = new int[10];
+
+
+            ////arr01.CopyTo(arr02, 1);
+
+            //arr01.GetValue(1);
+            //arr01.SetValue(100, 1);
+
+
+
+            //foreach(int number in arr02)
+            //    Console.WriteLine(number);
+
+            #endregion
+
+
+            #endregion
         }
     }
 }
