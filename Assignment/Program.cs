@@ -403,6 +403,25 @@ namespace Assignment
             //Console.WriteLine($"Sum Of The Array : {sum}");
 
             #endregion
+
+            #region 21- Write a program in C# Sharp to merge two arrays of the same size sorted in ascending order.
+
+            //int[] arr01 = { 1, 2, 5, 4, 3 };
+            //int[] arr02 = { 7, 8, 9, 10, 6 };
+            //int[] Merge = new int[arr01.Length + arr02.Length];
+
+            
+
+            //Array.Copy(arr01,Merge,arr01.Length);
+            //Array.Copy(arr02, 0, Merge, arr01.Length, arr02.Length);
+            //Array.Sort(Merge);
+
+            //foreach (int number in Merge)
+            //    Console.WriteLine(number);
+
+            #endregion
+
+
         }
     }
 }
