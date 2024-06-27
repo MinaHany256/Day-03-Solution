@@ -410,7 +410,7 @@ namespace Assignment
             //int[] arr02 = { 7, 8, 9, 10, 6 };
             //int[] Merge = new int[arr01.Length + arr02.Length];
 
-            
+
 
             //Array.Copy(arr01,Merge,arr01.Length);
             //Array.Copy(arr02, 0, Merge, arr01.Length, arr02.Length);
@@ -421,7 +421,11 @@ namespace Assignment
 
             #endregion
 
+            #region 22- Write a program in C# Sharp to count the frequency of each element of an array.
 
+
+
+            #endregion
         }
     }
 }
