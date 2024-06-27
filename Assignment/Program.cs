@@ -391,6 +391,18 @@ namespace Assignment
 
             #endregion
 
+            #region 20- Write a program in C# Sharp to find the sum of all elements of the array.
+
+            //int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+            //int sum = 0;
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    sum += numbers[i];
+            //}
+            //Console.WriteLine($"Sum Of The Array : {sum}");
+
+            #endregion
 
         }
     }
