@@ -1,4 +1,6 @@
-﻿namespace Assignment
+﻿using System.Numerics;
+
+namespace Assignment
 {
     class Program
     {
@@ -277,7 +279,7 @@
             //    }
             //    else
             //    {
-                   
+
             //        for (int j = 2; j <= Math.Sqrt(i); j++)
             //        {
             //            if (i % j == 0)
@@ -288,12 +290,31 @@
             //        }
             //    }
 
-               
+
             //    if (isPrime)
             //    {
             //        Console.Write($"{i} ");
             //    }
             //}
+
+            #endregion
+
+            #region 16- Write a program in C# Sharp to convert a decimal number into binary without using an array.
+           
+            //Console.Write("Enter a decimal number:");
+            //int Number = int.Parse(Console.ReadLine());
+
+            //int quotient = Number;
+            //string binaryNumber = "";
+
+            //while (quotient > 0)
+            //{
+            //    int remainder = quotient % 2;
+            //    binaryNumber = remainder + binaryNumber;
+            //    quotient /= 2;
+            //}
+
+            //Console.WriteLine(binaryNumber);
 
             #endregion
 
