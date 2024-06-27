@@ -1,4 +1,6 @@
-﻿namespace Demo
+﻿using System.Text;
+
+namespace Demo
 {
     class Person
     {
@@ -345,6 +347,44 @@
 
 
             #endregion
+
+            #region String Builder
+
+            //StringBuilder message;
+
+            //message = new StringBuilder("hello");
+
+            //Console.WriteLine(message);
+            //Console.WriteLine(message.GetHashCode());
+
+            //message.Append(" Ahmed");
+
+            //Console.WriteLine("****************************");
+            //Console.WriteLine(message);
+            //Console.WriteLine(message.GetHashCode());
+
+            #endregion
+
+            #region StringBuilder Methods
+
+            //StringBuilder message = new StringBuilder("Hello");
+
+            //message.Append(" Ahmed");
+            //message.AppendLine(" Nasr");
+            //message.Append("Age is 22");
+            //Console.WriteLine(message);
+
+            //message.Remove(0, 5);  //From First index and remove 5 chars
+            //Console.WriteLine(message);
+            //message.Insert(0, "Hi");
+            //Console.WriteLine(message);
+            ////message.Clear();
+            //message.AppendFormat("{0}:{1}",true,'A');
+            //message.AppendJoin(" ; ", "mina", "Hany");
+            //Console.WriteLine(message);
+            #endregion
+
+
         }
     }
 }
