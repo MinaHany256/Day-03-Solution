@@ -442,7 +442,7 @@ namespace Demo
             //        //flag = int.TryParse(Console.ReadLine(), out Marks[i, j]);
             //        //if (flag)
             //        //    j++;
-                     
+
             //        j = int.TryParse(Console.ReadLine(), out Marks[i, j]) ? ++j : j;
 
             //    }
@@ -463,6 +463,15 @@ namespace Demo
 
             #endregion
 
+            #region Arrays - Two D Array  [Judged]
+
+            //int[][] Marks = new int[3][];
+
+            //Marks[0] = new int[3] { 9, 8, 3 };
+            //Marks[1] = new int[2] { 7, 2 };
+            //Marks[2] = new int[1] { 5 };
+
+            #endregion
         }
     }
 }
