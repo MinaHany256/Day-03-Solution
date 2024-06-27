@@ -74,6 +74,28 @@
             //    Console.WriteLine("Odd Number");
             #endregion
 
+            #region 5- Write a program that takes character from the user then if it is a vowel chars (a,e,I,o,u) then print (vowel) otherwise print (consonant).
+
+            //Console.Write("Please Enter any char : ");
+            //char character = char.Parse(Console.ReadLine());
+
+            //switch(character)
+            //{
+            //    case 'a':
+            //    case 'e':
+            //    case 'i':
+            //    case 'o':
+            //    case 'u':
+            //        Console.WriteLine("Vowel");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Constant");
+            //        break;
+            //}
+
+
+            #endregion
+
         }
     }
 }
