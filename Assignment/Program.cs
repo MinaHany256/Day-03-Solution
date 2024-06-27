@@ -426,6 +426,29 @@ namespace Assignment
 
 
             #endregion
+
+            #region 23- Write a program in C# Sharp to find maximum and minimum element in an array
+
+            //int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 10, 9 };
+
+            //int maxNumber = arr[0];
+            //int minNumber = arr[0];
+
+            //foreach (int number in arr)
+            //{
+            //    if (number > maxNumber)
+            //        maxNumber = number;
+
+            //    if (number < minNumber)
+            //        minNumber = number;
+            //}
+
+            //Console.WriteLine($"Maximum element: {maxNumber}");
+            //Console.WriteLine($"Minimum element: {minNumber}");
+
+            #endregion
+
+
         }
     }
 }
