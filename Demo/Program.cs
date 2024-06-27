@@ -258,12 +258,31 @@
 
             #region Control Statments  2. Loop Statments [For/ForEach/While/DoWhile]
 
-            for (int i = 1; i <= 10; i++)
-            {
-                Console.WriteLine(i);
-            }
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    Console.WriteLine(i);
+            //}
 
             #endregion
+
+            #region Control Statments  2. Loop Statments [For/ForEach]
+            //                0  1  2  3  4
+            //int[] numbers = { 1, 2, 3, 4, 5 };
+
+            //for (int i = 0; i < numbers.Length; i++) 
+            //{
+            //    Console.WriteLine(numbers[i]);
+            //}
+
+            //Console.WriteLine("******************");
+
+            //foreach (int i in numbers)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            #endregion
+
         }
     }
 }
