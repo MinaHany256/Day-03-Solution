@@ -300,6 +300,51 @@
 
 
             #endregion
+
+            #region String
+
+            #region Example01
+            //string Name;
+            //Name = new string("Ahmed");
+            //Name = "Ahmed";   //(Syntax Sugar) 
+            #endregion
+
+            #region Example02
+
+            //string Name01 = "Ahmed";
+            //string Name02 = "Omar";
+
+            ////Console.WriteLine($"Name01 = {Name01}");
+            ////Console.WriteLine($"HashCode of Name01 = {Name01.GetHashCode()}");
+            ////Console.WriteLine($"Name02 = {Name02}");
+            ////Console.WriteLine($"HashCode of Name01 = {Name02.GetHashCode()}");
+
+            //Name02 = Name01;
+
+            //Name01 = "yassmin";
+            //Console.WriteLine(Name02);
+
+            ////Console.WriteLine("********After Name01 = Name02********");
+            ////Console.WriteLine($"Name01 = {Name01}");
+            ////Console.WriteLine($"HashCode of Name01 = {Name01.GetHashCode()}");
+            ////Console.WriteLine($"Name02 = {Name02}");
+            ////Console.WriteLine($"HashCode of Name01 = {Name02.GetHashCode()}");
+            #endregion
+
+            #region Example03
+            //string message = "Hello";
+            //Console.WriteLine($"Message:{message}");
+            //Console.WriteLine($"Hashcode of message: {message.GetHashCode()}");
+
+            //message += "Ahmed"; 
+            //Console.WriteLine("*************After change message***************");
+
+            //Console.WriteLine($"Message:{message}");
+            //Console.WriteLine($"Hashcode of message: {message.GetHashCode()}"); 
+            #endregion
+
+
+            #endregion
         }
     }
 }
