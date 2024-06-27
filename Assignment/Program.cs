@@ -1,4 +1,5 @@
 ﻿using System.Numerics;
+using System.Threading.Tasks;
 
 namespace Assignment
 {
@@ -335,7 +336,7 @@ namespace Assignment
             //double slope01 = (y2 - y1) / (x2 - x1);
             //double slope02 = (y3 - y2) / (x3 - x2);
 
-            
+
             //if (slope01 == slope02)
             //{
             //    Console.WriteLine("lies on the same straight line");
@@ -344,6 +345,30 @@ namespace Assignment
             //{
             //    Console.WriteLine("not lies on the same straight line");
             //}
+
+            #endregion
+
+            #region Question 18
+            ////18 - Within a company, the efficiency of workers is evaluated based on the duration required to complete a specific task.A worker's efficiency level is determined as follows: 
+            ////- If the worker completes the job within 2 to 3 hours, they are considered highly efficient.
+            ////- If the worker takes 3 to 4 hours, they are instructed to increase their speed.
+            ////- If the worker takes 4 to 5 hours, they are provided with training to enhance their speed.
+            ////- If the worker takes more than 5 hours, they are required to leave the company.
+            ////To calculate the efficiency of a worker, the time taken for the task is obtained via user input from the keyboard.
+
+            //Console.Write("Please Enter the taken by the worker for the task : ");
+            //int time  = int.Parse(Console.ReadLine());
+
+            //if (time >= 2 && time <= 3)
+            //    Console.WriteLine("Highly efficient worker");
+            //else if (time >= 3 && time <= 4)
+            //    Console.WriteLine("The Worker should increase the speed");
+            //else if (time >= 4 && time <= 5)
+            //    Console.WriteLine("The worker Should take training.");
+            //else if (time >= 5)
+            //    Console.WriteLine("Worker needs to leave the company");
+            //else
+            //    Console.WriteLine("Invalid input");
 
             #endregion
 
