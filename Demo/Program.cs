@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Globalization;
+using System.Text;
 
 namespace Demo
 {
@@ -384,7 +385,32 @@ namespace Demo
 
             #endregion
 
+            #region Arrays - One D Array
 
+            //int[] numbers;
+            //numbers = new int[3] { 1 , 2 , 3 };
+            ////numbers[0] = 1;
+            ////numbers[1] = 2;
+            ////numbers[2] = 3;
+            //Console.WriteLine(numbers[0]);
+            //Console.WriteLine(numbers[1]);
+            //Console.WriteLine(numbers[2]);
+
+            //int[] numbers;
+
+            //numbers = new int[3];
+
+            //int[] numbers02 = new int[3] { 1, 2, 3 };
+            //int[] numbers03 = new int[] { 1, 2, 3 };
+            //int[] numbers04 = { 1, 2, 3 };  //only with initialization
+
+            //numbers04 = new int[] { 4, 5, 6 };  // to update
+            ////
+            ////Console.WriteLine(numbers04[0]);
+
+            //Console.WriteLine(numbers04.Length);
+            //Console.WriteLine($"Numbers of D = {numbers04.Rank}");
+            #endregion
         }
     }
 }
