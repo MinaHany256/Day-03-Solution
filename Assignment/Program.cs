@@ -259,6 +259,44 @@
 
             #endregion
 
+            #region 15- Write a program in C# Sharp to find prime numbers within a range of numbers.
+
+            //Console.WriteLine("Enter starting number of range:");
+            //int start = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Enter ending number of range:");
+            //int end = int.Parse(Console.ReadLine());
+
+            //for (int i = start; i <= end; i++)
+            //{
+            //    bool isPrime = true;
+
+            //    if (i < 2)
+            //    {
+            //        isPrime = false; 
+            //    }
+            //    else
+            //    {
+                   
+            //        for (int j = 2; j <= Math.Sqrt(i); j++)
+            //        {
+            //            if (i % j == 0)
+            //            {
+            //                isPrime = false;
+            //                break;
+            //            }
+            //        }
+            //    }
+
+               
+            //    if (isPrime)
+            //    {
+            //        Console.Write($"{i} ");
+            //    }
+            //}
+
+            #endregion
+
 
 
         }
