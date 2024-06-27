@@ -476,21 +476,61 @@ namespace Assignment
             #region 26- Given a list of space separated words, reverse the order of the words.
 
             //Console.WriteLine("Enter a list of words : ");
-           
+
             //string input = Console.ReadLine();
 
-            
+
             //string[] words = input.Split();
-          
+
             //Array.Reverse(words);
-            
+
             //string reversedSentence = string.Join(" ", words);
 
             //Console.WriteLine("Reversed order of words:");
             //Console.WriteLine(reversedSentence);
             #endregion
 
+            #region 27- Write a program to create two multidimensional arrays of same size. Accept value from user and store them in first array. Now copy all the elements of first array on second array and print second array.
 
+           
+            //Console.Write("Number of Rows of First Array: ");
+            //int rows = int.Parse(Console.ReadLine());
+            //Console.Write("Number of Columns of First Array: ");
+            //int columns = int.Parse(Console.ReadLine());
+
+           
+            //int[,] firstArray = new int[rows, columns];
+            //int[,] secondArray = new int[rows, columns];
+
+            //for (int i = 0; i < rows; i++)
+            //{
+            //    for (int j = 0; j < columns; j++)
+            //    {
+            //        Console.Write($"Enter value for element ({i},{j}): ");
+            //        firstArray[i, j] = int.Parse(Console.ReadLine());
+            //    }
+            //}
+           
+            //for (int i = 0; i < rows; i++)
+            //{
+            //    for (int j = 0; j < columns; j++)
+            //    {
+            //        secondArray[i, j] = firstArray[i, j];
+            //    }
+            //}
+
+            
+            //Console.WriteLine("Second Array : ");
+            //for (int i = 0; i < rows; i++)
+            //{
+            //    for (int j = 0; j < columns; j++)
+            //    {
+            //        Console.Write(secondArray[i, j] + " ");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            #endregion
         }
     }
 }
