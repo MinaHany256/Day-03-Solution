@@ -63,6 +63,17 @@
 
             #endregion
 
+            #region 4- Write a program that allows the user to insert an integer number then check If a number is even or odd.
+
+            //Console.WriteLine("Enter a Number");
+            //int.TryParse(Console.ReadLine(), out int number);
+
+            //if (number % 2 == 0)
+            //    Console.WriteLine("Even Number");
+            //else
+            //    Console.WriteLine("Odd Number");
+            #endregion
+
         }
     }
 }
