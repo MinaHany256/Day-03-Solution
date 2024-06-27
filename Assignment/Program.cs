@@ -300,7 +300,7 @@ namespace Assignment
             #endregion
 
             #region 16- Write a program in C# Sharp to convert a decimal number into binary without using an array.
-           
+
             //Console.Write("Enter a decimal number:");
             //int Number = int.Parse(Console.ReadLine());
 
@@ -318,6 +318,34 @@ namespace Assignment
 
             #endregion
 
+            #region 17- Create a program that asks the user to input three points (x1, y1), (x2, y2), and (x3, y3), and determines whether these points lie on a single straight line.
+
+            //Console.WriteLine("Enter Points 1: ");
+            //double x1 = double.Parse(Console.ReadLine());
+            //double y1 = double.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Enter coordinates for Points 2 : ");
+            //double x2 = double.Parse(Console.ReadLine());
+            //double y2 = double.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Enter coordinates for Points 3: ");
+            //double x3 = double.Parse(Console.ReadLine());
+            //double y3 = double.Parse(Console.ReadLine());
+
+            //double slope01 = (y2 - y1) / (x2 - x1);
+            //double slope02 = (y3 - y2) / (x3 - x2);
+
+            
+            //if (slope01 == slope02)
+            //{
+            //    Console.WriteLine("lies on the same straight line");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("not lies on the same straight line");
+            //}
+
+            #endregion
 
 
         }
