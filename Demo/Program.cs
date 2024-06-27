@@ -366,7 +366,6 @@ namespace Demo
             #endregion
 
             #region StringBuilder Methods
-
             //StringBuilder message = new StringBuilder("Hello");
 
             //message.Append(" Ahmed");
@@ -382,6 +381,7 @@ namespace Demo
             //message.AppendFormat("{0}:{1}",true,'A');
             //message.AppendJoin(" ; ", "mina", "Hany");
             //Console.WriteLine(message);
+
             #endregion
 
 
