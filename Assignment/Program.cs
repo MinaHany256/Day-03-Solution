@@ -168,6 +168,41 @@
 
             #endregion
 
+            #region 11- Write a program to input the month number and print the number of days in that month.
+
+            //Console.WriteLine("Please Enter a Month Number : ");
+            //int number = int.Parse(Console.ReadLine());
+
+            //switch(number)
+            //{
+            //    case 1:
+            //    case 3:
+            //    case 5:
+            //    case 7:
+            //    case 8:
+            //    case 10:
+            //    case 12:
+            //        Console.WriteLine("Days in Month is 31");
+            //        break;
+            //    case 4:
+            //    case 6:
+            //    case 9:
+            //    case 11:
+            //        Console.WriteLine("Days in Month is 30");
+            //        break;
+            //    case 2:
+            //        Console.WriteLine("Days in Month is 28");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Enter a valid Month Number");
+            //        break;
+
+
+            //}
+
+            #endregion
+
+
 
         }
     }
