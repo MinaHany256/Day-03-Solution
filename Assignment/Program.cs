@@ -455,7 +455,7 @@ namespace Assignment
             //int firstMax = 0; 
             //int secondMax = 0; 
 
-            
+
             //foreach (int number in arr)
             //{
             //    if (number > firstMax)
@@ -471,6 +471,23 @@ namespace Assignment
 
             //Console.WriteLine($"Second largest element: {secondMax}");
 
+            #endregion
+
+            #region 26- Given a list of space separated words, reverse the order of the words.
+
+            //Console.WriteLine("Enter a list of words : ");
+           
+            //string input = Console.ReadLine();
+
+            
+            //string[] words = input.Split();
+          
+            //Array.Reverse(words);
+            
+            //string reversedSentence = string.Join(" ", words);
+
+            //Console.WriteLine("Reversed order of words:");
+            //Console.WriteLine(reversedSentence);
             #endregion
 
 
