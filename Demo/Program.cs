@@ -1,5 +1,12 @@
 ﻿namespace Demo
 {
+    class Person
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+
+        public int Age { get; set; }
+    }
     class Program
     {
         static void Main()
@@ -177,37 +184,37 @@
             #region Evolution of Switch in C# 8.0
 
             #region Example01
-            String option = Console.ReadLine() ?? "0";
+            //String option = Console.ReadLine() ?? "0";
 
-            string message = string.Empty;
+            //string message = string.Empty;
 
-            switch (option)
-            {
-                case "1":
-                    message = "using option 1";
-                    break;
-                case "2":
-                    message = "using option 2";
-                    break;
-                case "3":
-                    message = "using option 2";
-                    break;
-                default:
-                    message = "unsupported option";
-                    break;
+            //switch (option)
+            //{
+            //    case "1":
+            //        message = "using option 1";
+            //        break;
+            //    case "2":
+            //        message = "using option 2";
+            //        break;
+            //    case "3":
+            //        message = "using option 2";
+            //        break;
+            //    default:
+            //        message = "unsupported option";
+            //        break;
 
-            }
+            //}
 
-            Console.WriteLine(message);
+            //Console.WriteLine(message);
 
 
-            message = option switch
-            {
-                "1" => "using option 1",
-                "2" => "using option 2",
-                "3" => "using option 3",
-                _ => "unsupported option"
-            };
+            //message = option switch
+            //{
+            //    "1" => "using option 1",
+            //    "2" => "using option 2",
+            //    "3" => "using option 3",
+            //    _ => "unsupported option"
+            //};
             #endregion
 
             #region Example02
@@ -224,6 +231,27 @@
             #endregion
 
             #endregion
+
+            #region Evolution of Switch in C# 9.0
+
+            //Person person = new Person() { Id = 10, Name = "Mina Hany", Age = 21 };
+
+            //switch (person)
+            //{
+            //    case Person when person.Id == 10 && person.Name == "Mina Hany" && person.Age == 21:
+            //        Console.WriteLine("Hello Mina Hany");
+            //        break;
+            //    case { Id: 10, Name: "Mina Hany", Age: > 21 and < 30 }:
+            //        Console.WriteLine("Hello Mina Hany Your Age is 21");
+            //        break;
+            //    case { Age: 21 }:
+            //        Console.WriteLine("HEllo Your Age is 21");
+            //        break;
+            //    default:
+            //        break;
+            //}
+            #endregion
+
 
             #endregion
 
