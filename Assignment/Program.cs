@@ -125,7 +125,22 @@
 
             #endregion
 
+            #region 9- Write a program that takes two integers then prints the power.
 
+            //Console.Write("Please Enter any Number : ");
+            //int number = int.Parse(Console.ReadLine());
+
+            //Console.Write("Please Enter Power : ");
+            //int power = int.Parse(Console.ReadLine());
+
+            //int answer = 1;
+
+            //for (int i = 0; i < power; i++)
+            //    answer *= number;
+
+            //Console.WriteLine(answer);
+
+            #endregion
         }
     }
 }
