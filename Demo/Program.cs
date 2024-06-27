@@ -411,6 +411,58 @@ namespace Demo
             //Console.WriteLine(numbers04.Length);
             //Console.WriteLine($"Numbers of D = {numbers04.Rank}");
             #endregion
+
+            #region Arrays - Two D Array [Rectangular]
+
+            //int[,] Marks = new int[3, 5] /*{ { 1, 2, 3, 4, 5 }, { 1, 2, 3, 4, 5 }, { 1, 2, 3, 4, 5 } }*/;
+            //CLR will allocate 60 bytes at HEAP
+            //Intialized with default vlaue of int = 0
+
+            //Marks[0, 1] = 1;
+            //Marks[0, 2] = 2;
+            //Marks[0, 3] = 3;
+            //Marks[0, 4] = 4;
+
+            //Marks[1, 0] = 1;
+            //Marks[1, 1] = 2;
+            //Marks[1, 2] = 3;
+            //Marks[1, 3] = 4;
+
+            //Console.WriteLine($"Length of Array : {Marks.Length} , The Count Of D : {Marks.Rank}");
+
+            //bool flag;
+
+            //for (int i = 0; i < Marks.GetLength(0) /*3*/; i++)
+            //{
+            //    Console.WriteLine($"Please Enter Grades of Student No. {i+1}");
+            //    for(int j = 0; j < Marks.GetLength(1)/*5*/;)
+            //    {
+            //        Console.WriteLine($"Please Enter Grade Of Subject No. : {j+1}");
+
+            //        //flag = int.TryParse(Console.ReadLine(), out Marks[i, j]);
+            //        //if (flag)
+            //        //    j++;
+                     
+            //        j = int.TryParse(Console.ReadLine(), out Marks[i, j]) ? ++j : j;
+
+            //    }
+            //}
+
+            //Console.Clear();
+
+            //for(int i = 0;i < Marks.GetLength(0) ;i++)
+            //{
+            //    Console.WriteLine($"Student Number {i + 1}");
+            //    for (int j = 0;j < Marks.GetLength(1) ;j++)
+            //    {
+            //        Console.WriteLine($"Grade Of Subject No({j+1}) : {Marks[i,j]}");
+            //    }
+            //    Console.WriteLine("==============================================");
+            //}
+
+
+            #endregion
+
         }
     }
 }
