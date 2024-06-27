@@ -26,6 +26,43 @@
             //    Console.WriteLine("Postitive");
             #endregion
 
+            #region 3- Write a program that takes 3 integers from the user then prints the max element and the min element.
+
+            //Console.WriteLine("Enter First Number");
+            //int.TryParse(Console.ReadLine(), out int number01);
+
+            //Console.WriteLine("Enter Second Number");
+            //int.TryParse(Console.ReadLine(), out int number02);
+
+            //Console.WriteLine("Enter Third Number");
+            //int.TryParse(Console.ReadLine(), out int number03);
+
+            //if (number01 > number02)
+            //{
+            //    if (number01 > number03)
+            //        Console.WriteLine($"Max Number is {number01}");
+            //    else
+            //        Console.WriteLine($"Max Number is {number03}");
+            //    if (number02 > number03)
+            //        Console.WriteLine($"Min Number is {number03}");
+            //    else
+            //        Console.WriteLine($"Min Number is {number02}");
+            //}
+            //else
+            //{
+            //    if (number02 > number03)
+            //        Console.WriteLine($"Max Number is {number02}");
+            //    else
+            //        Console.WriteLine($"Max Number is {number03}");
+            //    if (number01 > number03)
+            //        Console.WriteLine($"Min Number is {number03}");
+            //    else
+            //        Console.WriteLine($"Min Number is {number01}");
+            //}
+
+
+            #endregion
+
         }
     }
 }
