@@ -253,9 +253,17 @@
             #endregion
 
 
+
             #endregion
 
+            #region Control Statments  2. Loop Statments [For/ForEach/While/DoWhile]
 
+            for (int i = 1; i <= 10; i++)
+            {
+                Console.WriteLine(i);
+            }
+
+            #endregion
         }
     }
 }
