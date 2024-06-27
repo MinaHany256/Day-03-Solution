@@ -283,6 +283,23 @@
 
             #endregion
 
+            #region Control Statments  2. Loop Statments [DoWhile/While]
+
+            #region DoWhile
+            //int Number;
+            //bool Flag;
+
+            //do
+            //{
+            //    Console.Write("Please Enter an Even Number: ");
+            //    Flag = int.TryParse(Console.ReadLine(), out Number);
+            //}
+            //while (Number % 2 == 1 || !Flag);
+            #endregion
+
+
+
+            #endregion
         }
     }
 }
