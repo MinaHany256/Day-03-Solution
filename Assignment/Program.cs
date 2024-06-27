@@ -202,6 +202,48 @@
 
             #endregion
 
+            #region 12- Write a program to create a Simple Calculator.
+
+            //Console.Write("Write the First Number : ");
+            //double number01 = double.Parse(Console.ReadLine());
+
+            //Console.Write("Write the Operatot : ");
+            //char operator01 = char.Parse(Console.ReadLine());
+
+            //Console.Write("Write the Second Number : ");
+            //double number02 = double.Parse(Console.ReadLine());
+            //double answer = 0;
+
+            //switch (operator01)
+            //{
+            //    case '+':
+            //        answer = number01 + number02;
+            //        Console.Clear();    
+            //        Console.WriteLine($"{number01} + {number02} = {answer}");
+            //        break;
+            //    case '-':
+            //        answer = number01 - number02;
+            //        Console.Clear();
+            //        Console.WriteLine($"{number01} - {number02} = {answer}");
+            //        break;
+            //    case '*':
+            //        answer = number01 * number02;
+            //        Console.Clear();
+            //        Console.WriteLine($"{number01} * {number02} = {answer}");
+            //        break;
+            //    case '/':
+            //        answer = number01 / number02;
+            //        Console.Clear();
+            //        Console.WriteLine($"{number01} / {number02} = {answer}");
+            //        break;
+            //    default:
+            //        Console.Clear();
+            //        Console.WriteLine("Invalid operator");
+            //        break;
+            //}
+
+            #endregion
+
 
 
         }
